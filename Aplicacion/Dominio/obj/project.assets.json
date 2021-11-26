@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
-      "outputPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\obj\\",
+      "outputPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luisg\\AppData\\Roaming\\NuGet\\NuGet.Config"

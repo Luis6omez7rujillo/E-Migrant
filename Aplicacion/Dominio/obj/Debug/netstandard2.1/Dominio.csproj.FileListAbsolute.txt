@@ -16,3 +16,12 @@ C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Dominio\obj\Debu
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.dll
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.pdb
+C:\E-Migrant\Aplicacion\Dominio\bin\Debug\netstandard2.1\Dominio.deps.json
+C:\E-Migrant\Aplicacion\Dominio\bin\Debug\netstandard2.1\Dominio.dll
+C:\E-Migrant\Aplicacion\Dominio\bin\Debug\netstandard2.1\Dominio.pdb
+C:\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.csprojAssemblyReference.cache
+C:\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.AssemblyInfoInputs.cache
+C:\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.AssemblyInfo.cs
+C:\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.csproj.CoreCompileInputs.cache
+C:\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.dll
+C:\E-Migrant\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.pdb

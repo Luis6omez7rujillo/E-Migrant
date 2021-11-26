@@ -37,12 +37,34 @@ namespace Dominio
         [Display (Name="Ciudad")]
         public string Ciudad {get; set;}
 
-/*
+
+        [MaxLength(40,ErrorMessage="El campo {0} no puede superar los {1} caracteres")]
+        [MinLength(5,ErrorMessage="El campo{0} debe tener al menos {1} caracteres")]
+        [Display (Name="Correo electrónico")]
+        public string CorreoElectronico{get;set;}
+
+
+        [MaxLength(100,ErrorMessage="El campo {0} no puede superar los {1} caracteres")]
+        [MinLength(5,ErrorMessage="El campo{0} debe tener al menos {1} caracteres")]
+        [Display (Name="Página Web")]
+        public string PaginaWeb{get;set;}
+
+
         [Required(ErrorMessage="El campo {0}, es obligatorio")]
         [MaxLength(25, ErrorMessage="El campo {0} no puede superar los {1} cartacteres")]
         [MinLength(4, ErrorMessage="El campo {0} debe tener al menos {1} cartacteres")]  
         [RegularExpression("[a-zA-ZñÑáéíóúÁÉÍÓÚ ]*",ErrorMessage="En el campo {0} se permiten solamente letras")]
-        public string Disciplina {get;set;}
+        public string Sector {get;set;}
+
+
+        [Required(ErrorMessage="El campo {0}, es obligatorio")]
+        [MaxLength(25, ErrorMessage="El campo {0} no puede superar los {1} cartacteres")]
+        [MinLength(4, ErrorMessage="El campo {0} debe tener al menos {1} cartacteres")]  
+        [RegularExpression("[a-zA-ZñÑáéíóúÁÉÍÓÚ ]*",ErrorMessage="En el campo {0} se permiten solamente letras")]
+        public string TipoServicios {get;set;}
+
+/*
+
         // propiedad navigacional hacia la tabla Entrenador
         public Entrenador Entrenador {get;set;}
         //llave foranea de Patrocinador

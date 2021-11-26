@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZSsQ6vBHVmzrlmNgtLesb8MwUpxh5vlwnyCm9f5iY+cNzkc9tVTRZtVIUQVITKGAeICWMyel/NdPzVzxl58mw==",
+  "dgSpecHash": "mfkT6w+Tr6CsSEEmUvSVOYt4TWkLjcp1xwt8waqMIQERTnUv6pL6ihXQYC+sji1lPA9Bg2YPPl9TG3xLQ+IF1w==",
   "success": true,
-  "projectFilePath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
+  "projectFilePath": "C:\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\luisg\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

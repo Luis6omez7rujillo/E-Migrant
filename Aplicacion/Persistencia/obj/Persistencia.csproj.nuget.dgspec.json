@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {}
+    "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
+    "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
-        "outputPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\obj\\",
+        "outputPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {
+    "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
-        "outputPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\obj\\",
+        "outputPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -81,8 +81,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj"
+              "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj"
               }
             }
           }

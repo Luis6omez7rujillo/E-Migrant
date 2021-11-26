@@ -10,7 +10,7 @@ using Persistencia;
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211126185219_Inicial")]
+    [Migration("20211126210640_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
