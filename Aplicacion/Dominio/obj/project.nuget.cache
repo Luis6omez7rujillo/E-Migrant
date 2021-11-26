@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xNIiagQsvGAWIXIkFck3jd/y8qR1171OPa+d7QP3XKsUjUbe5UK1XprdAucfah/4dbiEcOGUjO2HSr7VMzVVIg==",
+  "success": true,
+  "projectFilePath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luisg\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
