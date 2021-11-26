@@ -1,9 +1,11 @@
 ﻿@page
-@model Presentacion.Pages.Migrantes.DetallesModel
-@{ViewData["Title"]="Detalles Migrante";
+@model Presentacion.Pages.Migrantes.EliminarModel
+@{ViewData["Title"]="Eliminar Migrante";
 }
-<h1>Detalles</h1>
-<h4>Migrante</h4>
+
+<h1>Eliminar Migrante</h1>
+<h4 class="text-danger">@ViewData["Error"]</h4>
+<h4 class="text-danger">@ViewData["Mensaje"]</h4>
 
 <div class="form-horizontal">
         
@@ -14,18 +16,15 @@
                <form method="post">
                    
                    <input type="hidden" asp-for="Migrante.Id" />
-                    <div class="form-group">
-                       <label asp-for="Migrante.Id" class="control-label"> </label>
-                       <input asp-for="Migrante.Id"  class="form-control" readonly/>                       
-                      
-                   </div>
-
                    <div class="form-group">
                        <label asp-for="Migrante.Nombres" class="control-label"> </label>
-                       <input asp-for="Migrante.Nombres"  class="form-control" readonly/>                       
+                       <input asp-for="Migrante.Nombres"  class="form-control"/>
                        
+                     
                    </div>
-                   
+                   <div class="form-group">                       
+                       <input type="submit" value="Eliminar" class="btn btn-primary"/>                       
+                   </div>
                </form>
            </div>
         </div>
@@ -38,3 +37,5 @@
 @section Scripts {
     @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
 }
+
+

@@ -120,3 +120,4 @@ C:\E-Migrant\Aplicacion\Presentacion\bin\Debug\netcoreapp3.1\Dominio.dll
 C:\E-Migrant\Aplicacion\Presentacion\bin\Debug\netcoreapp3.1\Persistencia.dll
 C:\E-Migrant\Aplicacion\Presentacion\bin\Debug\netcoreapp3.1\Dominio.pdb
 C:\E-Migrant\Aplicacion\Presentacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\E-Migrant\Aplicacion\Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Migrantes\Eliminar.cshtml.g.cs
