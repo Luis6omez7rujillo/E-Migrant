@@ -51,10 +51,31 @@
                     <label asp-for="Migrante.FechaNacimiento" class="control-label">  </label>
                     <input asp-for="Migrante.FechaNacimiento" class="form-control"/>
                     <span asp-validation-for="Migrante.FechaNacimiento" class="text-danger"></span>
-
                 </div>
 
+                <div class="form-group">   @*  Clase CSS Para manejo de grupos*@
+                    <label asp-for="Migrante.CorreoElectronico" class="control-label">  </label>
+                    <input asp-for="Migrante.CorreoElectronico" class="form-control"/>
+                    <span asp-validation-for="Migrante.CorreoElectronico" class="text-danger"></span>
+                </div>
                 
+                <div class="form-group">   @*  Clase CSS Para manejo de grupos*@
+                    <label asp-for="Migrante.Telefono" class="control-label">  </label>
+                    <input asp-for="Migrante.Telefono" class="form-control"/>
+                    <span asp-validation-for="Migrante.Telefono" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">   @*  Clase CSS Para manejo de grupos*@
+                    <label asp-for="Migrante.DireccionActual" class="control-label">  </label>
+                    <input asp-for="Migrante.DireccionActual" class="form-control"/>
+                    <span asp-validation-for="Migrante.DireccionActual" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">   @*  Clase CSS Para manejo de grupos*@
+                    <label asp-for="Migrante.Ciudad" class="control-label">  </label>
+                    <input asp-for="Migrante.Ciudad" class="form-control"/>
+                    <span asp-validation-for="Migrante.Ciudad" class="text-danger"></span>
+                </div>
 
                 <div class="form-group">   @*  Clase CSS Para manejo de grupos *@
                     <input type="submit" value="Crear" class="btn btn-success" />
