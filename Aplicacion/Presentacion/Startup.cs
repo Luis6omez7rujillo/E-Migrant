@@ -31,11 +31,14 @@ namespace Presentacion
             services.AddControllersWithViews();
 
 
-            services.AddScoped<IRepositorioMigrante,RepositorioMigrante>();
+            services.AddScoped<IRepositorioMigrante, RepositorioMigrante>();
 
-            services.AddScoped<IRepositorioServicio,RepositorioServicio>();
+            services.AddScoped<IRepositorioServicio, RepositorioServicio>();
 
             services.AddDbContext<Persistencia.AppContext>();
+
+            services.AddHttpContextAccessor();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +61,7 @@ namespace Presentacion
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {

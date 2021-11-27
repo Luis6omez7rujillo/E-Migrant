@@ -9,6 +9,7 @@ namespace Persistencia{
 
         public DbSet<Migrante> Migrantes{get;set;}
         public DbSet<Servicios> Servicios{get;set;}
+        public DbSet<Usuario> Usuarios{get;set;}
         //public DbSet<Medida> Medidas{get;set;}
              
         

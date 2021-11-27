@@ -5741,19 +5741,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\presentacion\\Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Presentacion\\Presentacion.csproj",
       "projectName": "Presentacion",
-      "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\presentacion\\Presentacion.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\presentacion\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Presentacion\\Presentacion.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5764,11 +5764,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Dominio\\Dominio.csproj": {
-              "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Dominio\\Dominio.csproj"
+            "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj"
             },
-            "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -5799,7 +5799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
