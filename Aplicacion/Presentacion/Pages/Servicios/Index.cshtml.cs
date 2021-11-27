@@ -8,21 +8,21 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Dominio;
 using Persistencia;
 
-namespace Presentacion.Pages.Servicios
+
+namespace Presentacion.Pages.Servicio
 {
     public class IndexModel : PageModel
     {
         private readonly IRepositorioServicio _repoServicio;
-        //public IEnumerable<Servicios> Servicios {get;set;}
-        public IndexModel(IRepositorioServicio reposervicio)
+        public IEnumerable<Servicios> Servicios{get;set;}
+        public IndexModel(IRepositorioServicio repoServicio)
         {
-            this._repoServicio=reposervicio;
+            this._repoServicio=repoServicio;
         }
-
 
         public void OnGet()
         {
-        //    Servicios = _repoServicio.ListarServicios();
+            Servicios = _repoServicio.ListarServicios();
         }
     }
 }

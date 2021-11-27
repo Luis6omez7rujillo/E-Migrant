@@ -18,16 +18,21 @@ namespace Dominio
         public string Nombre {get;set;}
 
         //Tipo de dato Int para lograr validar el numero de inmigrantes
+        [Required(ErrorMessage="El campo {0}, es obligatorio")]
         public int MaxMigrantes{get;set;}
 
         //Tipo de dato Date - Con la finalidad de que se pueda escoger año, mes y dia
+        [Required(ErrorMessage="El campo {0}, es obligatorio")]
         public DateTime FechaInicio {get;set;}
 
         //Tipo de dato Date - Con la finalidad de que se pueda escoger año, mes y dia
+        [Required(ErrorMessage="El campo {0}, es obligatorio")]
         public DateTime FechaFinal {get;set;}
 
-        
+        [Required(ErrorMessage="El campo {0}, es obligatorio")]
         public string Estado {get;set;}
         
+        [Required(ErrorMessage="El campo {0}, es obligatorio")]
+        public int EntidadId{get;set;}
     }
 }

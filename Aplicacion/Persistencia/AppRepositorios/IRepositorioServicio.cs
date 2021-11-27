@@ -10,5 +10,6 @@ namespace Persistencia
         bool ActualizarServicio(Servicios servicio);
         bool EliminarServicio(int idServicio);
         Servicios BuscarServicio (int idServicio);
+        List<Servicios> ListarServicios1();
     }
 }

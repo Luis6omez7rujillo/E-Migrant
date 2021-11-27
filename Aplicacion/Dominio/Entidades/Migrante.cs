@@ -86,6 +86,7 @@ namespace Dominio
         [MinLength(6,ErrorMessage="El campo{0} debe tener al menos {1} caracteres")]
         [RegularExpression("[0-9]*", ErrorMessage="En el campo {0} sólo se permiten números") ]
         [Display (Name="Teléfono")]
+        [Phone]
         public string Telefono{get;set;}
 
 

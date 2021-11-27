@@ -198,7 +198,6 @@ D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Crear.cshtml.g.cs
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Detalles.cshtml.g.cs
-D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Editar.cshtml.g.cs
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Eliminar.cshtml.g.cs
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Index.cshtml.g.cs
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -212,3 +211,4 @@ D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\staticwebassets\Presentacion.StaticWebAssets.Manifest.cache
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\staticwebassets\Presentacion.StaticWebAssets.xml
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Presentacion.genruntimeconfig.cache
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Servicios\Editar.cshtml.g.cs

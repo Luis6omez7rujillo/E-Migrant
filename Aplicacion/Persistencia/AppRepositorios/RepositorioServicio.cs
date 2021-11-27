@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Dominio;
 using System.Linq;
 
-namespace Persistencia.AppRepositorios
+namespace Persistencia
 {
     public class RepositorioServicio : IRepositorioServicio
     {
@@ -16,16 +16,21 @@ namespace Persistencia.AppRepositorios
         bool IRepositorioServicio.CrearServicio(Servicios servicio)
         {
             bool creado = false;
-            try
+            bool ex=Existe(servicio);
+            if(!ex)
             {
-                _appContext.Servicios.Add(servicio);
-                _appContext.SaveChanges();
-                creado = true;
+                try
+                {
+                    _appContext.Servicios.Add(servicio);
+                    _appContext.SaveChanges();
+                    creado = true;
+                }
+                catch (System.Exception)
+                {
+                    return creado;
+                }
             }
-            catch (System.Exception)
-            {
-                return creado;
-            }
+
             return creado;
         }
 
@@ -43,6 +48,7 @@ namespace Persistencia.AppRepositorios
                     s.FechaInicio = servicio.FechaInicio;
                     s.FechaFinal = servicio.FechaFinal;
                     s.Estado = servicio.Estado;
+                    s.EntidadId=servicio.EntidadId;
 
                     _appContext.SaveChanges();
                     actualizado = true;
@@ -85,6 +91,24 @@ namespace Persistencia.AppRepositorios
         IEnumerable<Servicios> IRepositorioServicio.ListarServicios()
         {
             return _appContext.Servicios; 
+
+        }
+
+        public List<Servicios> ListarServicios1()
+        {
+            return _appContext.Servicios.ToList();
+        }
+
+        private bool Existe(Servicios servicio)
+        {
+            bool ex= false;
+            var equ= _appContext.Servicios.FirstOrDefault(e => e.Nombre == servicio.Nombre);
+            if(equ!=null)
+            {
+                ex = true;
+            }
+            return ex;
+
         }
 
 

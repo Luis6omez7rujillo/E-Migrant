@@ -1,4 +1,66 @@
 ﻿@page
-@model Presentacion.Pages.Servicios.EditarModel
-@{
+@model Presentacion.Pages.Servicio.EditarModel
+@{ViewData["Title"]="Editar Servicio";
+}
+
+<h1>Editar </h1>
+<h4>Servicio</h4>
+
+<div class="form-horizontal">
+        
+        <hr />
+        
+        <div class="row">
+           <div class="col-md-4">
+               <form method="post">
+                  
+                   <input type="hidden" asp-for="Servicio.Id" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger">  </div>
+                   <div class="form-group">
+                       <label asp-for="Servicio.Nombre" class="control-label"> </label>
+                       <input asp-for="Servicio.Nombre"  class="form-control" />   
+                       <span asp-validation-for="Servicio.Nombre" class="text-danger" > </span>                       
+                   </div>
+                   <div class="form-group">
+                       <label asp-for="Servicio.MaxMigrantes" class="control-label"> </label>
+                       <input asp-for="Servicio.MaxMigrantes"  class="form-control" />   
+                       <span asp-validation-for="Servicio.MaxMigrantes" class="text-danger" > </span>                       
+                   </div>
+                   
+                    <div class="form-group">
+                       <label asp-for="Servicio.FechaInicio" class="control-label"> </label>
+                       <input asp-for="Servicio.FechaInicio"  class="form-control" />   
+                       <span asp-validation-for="Servicio.FechaInicio" class="text-danger" > </span>                       
+                   </div>
+                   <div class="form-group">
+                       <label asp-for="Servicio.FechaFinal" class="control-label"> </label>
+                       <input asp-for="Servicio.FechaFinal"  class="form-control" />   
+                       <span asp-validation-for="Servicio.FechaFinal" class="text-danger" > </span>                       
+                   </div>
+
+                    <div class="form-group">   @*  Clase CSS Para manejo de grupos *@
+                        <label asp-for="Servicio.Estado" class="control-label">  </label>
+                        <select asp-for="Servicio.Estado" class="form-control"> 
+                            <option value="">--Seleccione Estado--</option>
+                            <option value="1">Activio</option>
+                            <option value="2">Cerrado</option>
+                            <option value="3">Con Cupo</option>
+                            <option value="4">Sin Cupo</option>
+                        </select>
+                    </div>               
+
+                   <div class="form-group">                       
+                       <input type="submit" value="Editar" class="btn btn-primary"/>                       
+                   </div>
+               </form>
+           </div>
+        </div>
+
+        <div>
+            <a asp-page="Index">Regresar a Servicios</a>
+        </div> 
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
 }
