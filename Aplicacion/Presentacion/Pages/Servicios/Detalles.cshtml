@@ -1,0 +1,55 @@
+﻿@page
+@model Presentacion.Pages.Servicio.DetallesModel
+@{ViewData["Title"]="Detalles Servicios";
+}
+
+<h1>Detalles</h1>
+<h4>Servicio</h4>
+
+<div class="form-horizontal">
+        
+        <hr />
+        
+        <div class="row">
+           <div class="col-md-4">
+               <form method="post">
+                   
+                   <input type="hidden" asp-for="Servicio.Id" />
+                    <div class="form-group">
+                       <label asp-for="Servicio.Nombre" class="control-label"> </label>
+                       <input asp-for="Servicio.Nombre"  class="form-control" readonly/>                       
+                      
+                   </div>
+
+                   <div class="form-group">
+                       <label asp-for="Servicio.Estado" class="control-label"> </label>
+                       <input asp-for="Servicio.Estado"  class="form-control" readonly/>                       
+                       
+                   </div>
+
+                   
+                   
+                    <div class="form-group">
+                       <label asp-for="Servicio.FechaInicio" class="control-label"> </label>
+                       <input asp-for="Servicio.FechaInicio"  class="form-control" readonly/>                       
+                       
+                   </div>
+
+                    <div class="form-group">
+                       <label asp-for="Servicio.FechaFinal" class="control-label"> </label>
+                       <input asp-for="Servicio.FechaFinal"  class="form-control" readonly/>                       
+                    </div>
+
+               </form>
+           </div>
+        </div>
+
+        <div>
+            <a asp-page="Index">Regresar a Servicios</a>
+        </div> 
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+

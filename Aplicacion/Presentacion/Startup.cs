@@ -33,6 +33,8 @@ namespace Presentacion
 
             services.AddScoped<IRepositorioMigrante,RepositorioMigrante>();
 
+            services.AddScoped<IRepositorioServicio,RepositorioServicio>();
+
             services.AddDbContext<Persistencia.AppContext>();
         }
 

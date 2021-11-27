@@ -1,13 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Dominio;
 
+
 namespace Persistencia{
     public class AppContext:DbContext
     {
         //Atributos
 
         public DbSet<Migrante> Migrantes{get;set;}
-        //public DbSet<Medida> Medidas{get;set;}
+        public DbSet<Servicios> Servicios{get;set;}
+        
+        public DbSet<EntidadColaboradora> Entidada{get;set;}
              
         
         //Metodos

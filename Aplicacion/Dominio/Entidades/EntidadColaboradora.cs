@@ -41,6 +41,7 @@ namespace Dominio
         [MaxLength(40,ErrorMessage="El campo {0} no puede superar los {1} caracteres")]
         [MinLength(5,ErrorMessage="El campo{0} debe tener al menos {1} caracteres")]
         [Display (Name="Correo electrónico")]
+        [EmailAddress]
         public string CorreoElectronico{get;set;}
 
 
@@ -62,6 +63,8 @@ namespace Dominio
         [MinLength(4, ErrorMessage="El campo {0} debe tener al menos {1} cartacteres")]  
         [RegularExpression("[a-zA-ZñÑáéíóúÁÉÍÓÚ ]*",ErrorMessage="En el campo {0} se permiten solamente letras")]
         public string TipoServicios {get;set;}
+
+        public List<Servicios> Servicios;
 
 /*
 
