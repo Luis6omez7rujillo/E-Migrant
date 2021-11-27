@@ -48,8 +48,6 @@ namespace Dominio
 
 
         [Required(ErrorMessage="El campo {0} es obligatorio")]
-        [MaxLength(40,ErrorMessage="El campo {0} no puede superar los {1} caracteres")]
-        [MinLength(4,ErrorMessage="El campo {0} debe tener al menos {1} caracteres")]
         [Display (Name="Tipo de documento")]
         public string TipoDocumento {get;set;}
 
@@ -76,15 +74,12 @@ namespace Dominio
         public DateTime FechaNacimiento {get;set;}
 
 
-        [MaxLength(40,ErrorMessage="El campo {0} no puede superar los {1} caracteres")]
-        [MinLength(5,ErrorMessage="El campo{0} debe tener al menos {1} caracteres")]
+        [EmailAddress]
         [Display (Name="Correo electrónico")]
         public string CorreoElectronico{get;set;}
 
 
-        [MaxLength(20,ErrorMessage="No puede superar los {1} caracteres")]
-        [MinLength(6,ErrorMessage="El campo{0} debe tener al menos {1} caracteres")]
-        [RegularExpression("[0-9]*", ErrorMessage="En el campo {0} sólo se permiten números") ]
+        [Phone]
         [Display (Name="Teléfono")]
         public string Telefono{get;set;}
 
