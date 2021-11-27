@@ -5799,19 +5799,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luisg\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
+      "projectUniqueName": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\Consola.csproj",
       "projectName": "Consola",
-      "projectPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
-      "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
-      "outputPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Consola\\obj\\",
+      "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\Consola.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\luisg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5822,8 +5822,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Grupo36\\e-migrant-grupo36-webdevelopers\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj"
+            "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -5859,7 +5859,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }

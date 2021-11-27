@@ -22,3 +22,15 @@ C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\bin
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Dominio.dll
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Dominio.pdb
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CopyComplete
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\PErsistencia\obj\Debug\netstandard2.1\Persistencia.dll
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\PErsistencia\obj\Debug\netstandard2.1\Persistencia.pdb
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.csprojAssemblyReference.cache
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.AssemblyInfoInputs.cache
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.AssemblyInfo.cs
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CoreCompileInputs.cache
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Persistencia.deps.json
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Persistencia.dll
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Persistencia.pdb
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Dominio.dll
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Dominio.pdb
+D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CopyComplete
