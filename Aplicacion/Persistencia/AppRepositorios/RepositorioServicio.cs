@@ -42,7 +42,7 @@ namespace Persistencia.AppRepositorios
                     s.MaxMigrantes = servicio.MaxMigrantes;
                     s.FechaInicio = servicio.FechaInicio;
                     s.FechaFinal = servicio.FechaFinal;
-                    //s.Estado = Servicios.Estado;
+                    s.Estado = servicio.Estado;
 
                     _appContext.SaveChanges();
                     actualizado = true;

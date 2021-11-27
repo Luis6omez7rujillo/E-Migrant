@@ -10,13 +10,8 @@ using Persistencia;
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-<<<<<<< HEAD:Aplicacion/Persistencia/Migrations/20211127001840_nueva.Designer.cs
-    [Migration("20211127001840_nueva")]
-    partial class nueva
-=======
-    [Migration("20211126210640_Inicial")]
-    partial class Inicial
->>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3:Aplicacion/Persistencia/Migrations/20211126210640_Inicial.Designer.cs
+    [Migration("20211127023202_arreglosEnumDaniel")]
+    partial class arreglosEnumDaniel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -80,6 +75,35 @@ namespace Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Migrantes");
+                });
+
+            modelBuilder.Entity("Dominio.Servicios", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Estado")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaFinal")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaInicio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MaxMigrantes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Servicios");
                 });
 #pragma warning restore 612, 618
         }

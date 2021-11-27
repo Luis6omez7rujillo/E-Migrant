@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "hKnPqLDSz54DUqoijHEJc+hDbx6RpBktHsf/YjdPfwNHzZMjzn0gVy+iWdgmAk7ISyJM9bIRE0UIx3svAPljmg==",
   "success": true,
   "projectFilePath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\Consola.csproj",
-=======
-  "dgSpecHash": "mfkT6w+Tr6CsSEEmUvSVOYt4TWkLjcp1xwt8waqMIQERTnUv6pL6ihXQYC+sji1lPA9Bg2YPPl9TG3xLQ+IF1w==",
-  "success": true,
-  "projectFilePath": "C:\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
->>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -107,5 +101,12 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

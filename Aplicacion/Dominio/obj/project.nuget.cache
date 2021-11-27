@@ -1,16 +1,17 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "YA8El/mmY+qsC3ftouJ/B/1t88OJCmF8HSqf5LP5MG+1ujcDcxqabCHSAnrgsjVDMH+WuY8s4LAFcEJX1Pj5aQ==",
   "success": true,
   "projectFilePath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Dominio\\Dominio.csproj",
-=======
-  "dgSpecHash": "xQj4SF3htvZtoTerpdAVCeJtWwxgqtduYOfXqrvOZXYGl57FrGcnQblYmRGPogFnQxe/p20wWoZpKijMyHdmWg==",
-  "success": true,
-  "projectFilePath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
->>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

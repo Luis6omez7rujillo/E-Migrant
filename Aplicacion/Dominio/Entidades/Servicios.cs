@@ -27,12 +27,7 @@ namespace Dominio
         public DateTime FechaFinal {get;set;}
 
         
-        public enum Estado {
-            activos=1, 
-            cerrados=2, 
-            conCupo = 3, 
-            sinCupo = 4
-            }
+        public string Estado {get;set;}
         
     }
 }

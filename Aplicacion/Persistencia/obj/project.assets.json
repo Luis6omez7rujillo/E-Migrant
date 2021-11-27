@@ -7271,19 +7271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj",
+      "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\obj\\",
-=======
-      "projectUniqueName": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
-      "projectName": "Persistencia",
-      "projectPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
-      "outputPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\obj\\",
->>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
+      "outputPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7297,13 +7289,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Dominio\\Dominio.csproj": {
               "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Dominio\\Dominio.csproj"
-=======
-            "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj"
->>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
             }
           }
         }
