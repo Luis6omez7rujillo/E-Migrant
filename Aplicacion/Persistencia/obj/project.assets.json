@@ -7266,11 +7266,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Asus\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\luisg\\.nuget\\packages\\": {}
+>>>>>>> 0a779d337a566d32bbb79a32026fe2de5340d210
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
       "projectPath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
@@ -7279,6 +7284,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
+      "projectName": "Persistencia",
+      "projectPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
+      "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
+      "outputPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\luisg\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 0a779d337a566d32bbb79a32026fe2de5340d210
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7289,8 +7304,13 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
               "projectPath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj"
+=======
+            "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj"
+>>>>>>> 0a779d337a566d32bbb79a32026fe2de5340d210
             }
           }
         }
@@ -7340,7 +7360,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+>>>>>>> 0a779d337a566d32bbb79a32026fe2de5340d210
       }
     }
   }

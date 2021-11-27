@@ -5,7 +5,7 @@ namespace Persistencia
 {
     public interface IRepositorioEntidadCol
     {
-         IEnumerable<EntidadColaboradora> ListarEntidadesCol();
+         IEnumerable<EntidadColaboradora> Ent ListarEntidadesCol();
         List<EntidadColaboradora> ListarEntidadesCol1();
         bool CrearEntidadCol(EntidadColaboradora entidadCol);
         bool ActualizarEntidadCol(EntidadColaboradora entidadCol);

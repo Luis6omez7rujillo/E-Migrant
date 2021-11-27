@@ -1,10 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7b0oqhIgORg5AX2WA16QZgYnl7GeiQwO9DNhZSGyQCkJQp8n9Lpv/aq9FT7N+ST3EVXZLAaCBfDlqRRCqBKHRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Documents\\Hackaton\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "xQj4SF3htvZtoTerpdAVCeJtWwxgqtduYOfXqrvOZXYGl57FrGcnQblYmRGPogFnQxe/p20wWoZpKijMyHdmWg==",
+  "success": true,
+  "projectFilePath": "C:\\E-Migrant\\Aplicacion\\Dominio\\Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luisg\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+>>>>>>> 0a779d337a566d32bbb79a32026fe2de5340d210
   ],
   "logs": []
 }

@@ -36,8 +36,7 @@ namespace Persistencia.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("CorreoElectronico")
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DireccionActual")
                         .HasMaxLength(40)
@@ -62,13 +61,11 @@ namespace Persistencia.Migrations
                         .HasColumnType("nvarchar(40)");
 
                     b.Property<string>("Telefono")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TipoDocumento")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
