@@ -26,12 +26,23 @@
 
                 </div>
 
-                <div class="form-group">   @*  Clase CSS Para manejo de grupos*@
+               <div class="form-group">   @*  Clase CSS Para manejo de grupos *@
                     <label asp-for="Migrante.TipoDocumento" class="control-label">  </label>
-                    <input asp-for="Migrante.TipoDocumento" class="form-control"/>
-                    <span asp-validation-for="Migrante.TipoDocumento" class="text-danger"></span>
+                    <select asp-for="Migrante.TipoDocumento" class="form-control"> 
+                        <option value="">--Seleccione documento--</option>
+                        <option value="1">Pasaporte</option>
+                        <option value="2">Cédula de extranjería</option>
+                        <option value="3">Cédula de ciudadanía</option>
+                        <option value="4">Tarjeta de identidad</option>
+                        <option value="5">Registro civil de nacimiento</option>
+                        <option value="6">Indocumentado</option>
+                        
+                    </select>
 
-                </div>
+                </div> 
+
+                 
+
 
                 <div class="form-group">   @*  Clase CSS Para manejo de grupos*@
                     <label asp-for="Migrante.Documento" class="control-label">  </label>
