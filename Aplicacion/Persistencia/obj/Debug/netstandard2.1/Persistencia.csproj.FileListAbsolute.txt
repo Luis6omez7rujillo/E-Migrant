@@ -22,6 +22,7 @@ C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\bin
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Dominio.dll
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Dominio.pdb
 C:\Grupo36\e-migrant-grupo36-webdevelopers\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CopyComplete
+<<<<<<< HEAD
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\PErsistencia\obj\Debug\netstandard2.1\Persistencia.dll
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\PErsistencia\obj\Debug\netstandard2.1\Persistencia.pdb
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.csprojAssemblyReference.cache
@@ -34,3 +35,17 @@ D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Dominio.dll
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\bin\Debug\netstandard2.1\Dominio.pdb
 D:\Mis Documentos\Ucaldas\Emigrant\E-Migrant-1\Aplicacion\persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CopyComplete
+=======
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.csprojAssemblyReference.cache
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.AssemblyInfoInputs.cache
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.AssemblyInfo.cs
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CoreCompileInputs.cache
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.dll
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.pdb
+C:\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Persistencia.deps.json
+C:\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Persistencia.dll
+C:\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Persistencia.pdb
+C:\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Dominio.dll
+C:\E-Migrant\Aplicacion\Persistencia\bin\Debug\netstandard2.1\Dominio.pdb
+C:\E-Migrant\Aplicacion\Persistencia\obj\Debug\netstandard2.1\Persistencia.csproj.CopyComplete
+>>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3

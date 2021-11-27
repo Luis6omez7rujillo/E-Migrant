@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using Persistencia;
+using Dominio;
+
 namespace Presentacion
 {
     public class Startup
@@ -24,6 +27,13 @@ namespace Presentacion
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddControllersWithViews();
+
+
+            services.AddScoped<IRepositorioMigrante,RepositorioMigrante>();
+
+            services.AddDbContext<Persistencia.AppContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

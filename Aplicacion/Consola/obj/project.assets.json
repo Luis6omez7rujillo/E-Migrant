@@ -5804,11 +5804,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\Consola.csproj",
       "projectName": "Consola",
       "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\Consola.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
       "outputPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Consola\\obj\\",
+=======
+      "projectUniqueName": "C:\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
+      "projectName": "Consola",
+      "projectPath": "C:\\E-Migrant\\Aplicacion\\Consola\\Consola.csproj",
+      "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
+      "outputPath": "C:\\E-Migrant\\Aplicacion\\Consola\\obj\\",
+>>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5822,8 +5830,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj": {
               "projectPath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj"
+=======
+            "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj"
+>>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
             }
           }
         }

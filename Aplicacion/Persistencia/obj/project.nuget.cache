@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "yPnack/8QyXw6A9+BrV4cl/wIXZQ7kiESLXMx5RqoX7g9TMQDC+KYLiGoaZyOzV33Lz/+/bFyieUsA+32ZaW0g==",
   "success": true,
   "projectFilePath": "D:\\Mis Documentos\\Ucaldas\\Emigrant\\E-Migrant-1\\aplicacion\\Persistencia\\Persistencia.csproj",
+=======
+  "dgSpecHash": "pC6lQS3rU2CSj7EmQTZfA8bVij9DY1ywJFR1O+wCxc5CRy8G5NcNo/c359Xq9kVOKwB8kOppvi+hbNQu6VmbaA==",
+  "success": true,
+  "projectFilePath": "C:\\E-Migrant\\Aplicacion\\Persistencia\\Persistencia.csproj",
+>>>>>>> 29d0f5109867d4cfd58ee65337d4601d0a0d98f3
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
